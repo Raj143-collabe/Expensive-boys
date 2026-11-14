@@ -5,18 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Daily Expense Tracker</title>
     <link rel="stylesheet" href="style.css">
-    <!-- Google Fonts for clean typography -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="app-container">
-        <!-- Header / Welcome Dashboard -->
+        
         <header class="header">
             <h1>Daily Expense Tracker</h1>
             <p>Monitor your daily spending, organize by category, and stay on top of your budget.</p>
         </header>
 
-        <!-- Dashboard Summary Cards -->
         <section class="summary-cards">
             <div class="card total-card">
                 <h3>Total Expenditure</h3>
@@ -29,7 +27,7 @@
         </section>
 
         <div class="main-content-grid">
-            <!-- Left Column: Add Expense Form -->
+        
             <section class="form-section">
                 <h2>Add New Expense</h2>
                 <form id="expense-form">
@@ -74,17 +72,14 @@
                 </form>
             </section>
 
-            <!-- Right Column: Expense List & Category Summary -->
             <section class="data-section">
-                <!-- Category Summary Breakdown -->
+            
                 <div class="category-summary-container">
                     <h2>Category Summary</h2>
                     <div id="category-summary-grid" class="category-summary-grid">
-                        <!-- Dynamically filled via JavaScript -->
                     </div>
                 </div>
 
-                <!-- Expense List / Table -->
                 <div class="expense-list-container">
                     <div class="list-header">
                         <h2>Expense Records</h2>
@@ -116,7 +111,6 @@
                                 </tr>
                             </thead>
                             <tbody id="expense-table-body">
-                                <!-- Dynamically populated rows -->
                             </tbody>
                         </table>
                     </div>
